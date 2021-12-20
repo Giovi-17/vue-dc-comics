@@ -5,8 +5,10 @@
     <main>
 
       <Content/>
-      
+
       <LinkExtra/>
+
+      <PreFooter/>
 
     </main>
 
@@ -18,6 +20,7 @@
 import Header from "./components/Header.vue";
 import Content from "./components/Content.vue";
 import LinkExtra from "./components/LinkExtra.vue";
+import PreFooter from "./components/PreFooter.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -26,12 +29,19 @@ export default {
     Header,
     Content,
     LinkExtra,
+    PreFooter,
     Footer
   },
 };
 </script>
 
 <style lang="scss">
+
+body{
+
+  font-family: 'Roboto', sans-serif;
+
+}
 
 *{
 
