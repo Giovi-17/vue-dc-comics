@@ -38,6 +38,12 @@
             color: white;
             font-size: 25px;
 
+            span{
+
+                font-weight: bold;
+
+            }
+
         }
 
     }
