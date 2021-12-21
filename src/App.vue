@@ -4,6 +4,8 @@
 
     <main>
 
+      <GeneralJumbotron/>
+
       <Content/>
 
       <LinkExtra/>
@@ -18,6 +20,7 @@
 
 <script>
 import Header from "./components/Header.vue";
+import GeneralJumbotron from "./components/GenerealJumbotron.vue";
 import Content from "./components/Content.vue";
 import LinkExtra from "./components/LinkExtra.vue";
 import PreFooter from "./components/PreFooter.vue";
@@ -27,10 +30,11 @@ export default {
   name: "App",
   components: {
     Header,
+    GeneralJumbotron,
     Content,
     LinkExtra,
     PreFooter,
-    Footer
+    Footer,
   },
 };
 </script>
